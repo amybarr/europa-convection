@@ -10,18 +10,7 @@ The outputs, "node_data" files are the raw results simulations of ice convection
 The input files for each case are the ".par" files.
 
 The columns in the node_data files are:
-Node number
-X
-Z 
-Y (always =0 because we're in 2d)
-X velocity
-Z velocity
-Temperature
-Pressure
-Streamfunction
-Viscosity
-Strain rate (edot)
-and Stress (strs)
+Node number, X, Z, Y (always =0 because we're in 2d), X velocity, Z velocity, Temperature, Pressure, Streamfunction, Viscosity, Strain rate (edot), and Stress (strs)
 
 The quantities are non-dimensionalized using values that appear in the Rayleigh number.  For example, "time" is measured in units of thermal diffusion time.  Distance is scaled with the thickness of the ice shell.
 
